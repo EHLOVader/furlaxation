@@ -8,7 +8,7 @@ import './App.scss';
 function App() {
     const [step, setStep] = useState(0);
 
-    const path = import.meta.env.PUBLIC_URL || '';
+    const path = '/furlaxation';
 
     return (
         <Router>
