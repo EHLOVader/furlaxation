@@ -8,14 +8,16 @@ import './App.scss';
 function App() {
     const [step, setStep] = useState(0);
 
+    const path = import.meta.env.PUBLIC_URL || '';
+
     return (
         <Router>
             <div className="App">
                 <Routes>
-                    <Route path="/protocol/:protocolId" element={
+                    <Route path={path + "/protocol/:protocolId"} element={
                         <ProtocolDetails protocols={protocols} step={step}/>
                     }/>
-                    <Route path="/" element={
+                    <Route path={path + "/"} element={
                         <ProtocolList protocols={protocols}/>
                     }/>
                 </Routes>
