@@ -8,10 +8,8 @@ import './App.scss';
 function App() {
     const [step, setStep] = useState(0);
 
-    const path = '/furlaxation';
-
     return (
-        <Router basename={path}>
+        <Router basename="/furlaxation">
             <div className="App">
                 <Routes>
                     <Route path={"/protocol/:protocolId"} element={
