@@ -11,13 +11,13 @@ function App() {
     const path = '/furlaxation';
 
     return (
-        <Router>
+        <Router basename={path}>
             <div className="App">
                 <Routes>
-                    <Route path={path + "/protocol/:protocolId"} element={
+                    <Route path={"/protocol/:protocolId"} element={
                         <ProtocolDetails protocols={protocols} step={step}/>
                     }/>
-                    <Route path={path + "/"} element={
+                    <Route path={"/"} element={
                         <ProtocolList protocols={protocols}/>
                     }/>
                 </Routes>
