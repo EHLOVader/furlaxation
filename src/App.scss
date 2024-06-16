@@ -2,7 +2,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-body {
+[tabindex],[id] {
   scroll-margin-bottom: 2em;
   scroll-margin: 2em;
 }
