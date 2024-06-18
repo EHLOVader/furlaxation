@@ -73,13 +73,6 @@
   }
 }
 
-@keyframes count  {
-  0% { content: counter(number); }
-  100% {  counter-increment: number;
-        content: counter(nubmer); }
-
-}
-
 li.active{
   counter-reset: number;
 
@@ -88,19 +81,21 @@ li.active{
     bottom: 0;
     height: 8px;
     left: 0;
-    width: 100%;
     background: red;
     content: "";
     animation: grow linear;
 
   }
   &[data-time="2"]:after {
+    width: 100%;
     animation-duration: 2s;
   }
   &[data-time="5"]:after {
+      width: 100%;
       animation-duration: 5s;
   }
   &[data-time="10"]:after {
+      width: 100%;
       animation-duration: 10s;
   }
 
@@ -108,12 +103,11 @@ li.active{
     content: "";
     position: absolute;
     bottom: 10px;
-    animation: count forwards;
   }
 
   &[data-time="2"]:before {
-    animation-duration: 1s;
-    animation-iteration-count: 2;
+    animation-duration: 2s;
+    animation-timing-function: steps(2);
   }
   &[data-time="5"]:before {
     animation-duration: 1s;
