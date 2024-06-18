@@ -11,11 +11,17 @@ const ProtocolDetails = ({ protocols }) => {
     const [currentStep, setStep] = React.useState(0)
 
     const handleYes = () => {
+        if(currentStep === protocol.steps.length - 1) {
+            return;
+        }
         setStep(currentStep + 1)
 
     }
 
     const handleNo = () => {
+        if(currentStep === 0) {
+            return;
+        }
         setStep(currentStep - 1)
     }
 
@@ -34,7 +40,7 @@ const ProtocolDetails = ({ protocols }) => {
             <h3>Steps</h3>
             <ul className="flex flex-col" >
                 {protocol.steps.map((step, index) => (
-                    <li tabIndex="-1" key={index}
+                    <li tabIndex="-1" key={index} data-time={step.time}
                         className={(index==currentStep ? 'active ' : '') + "m-2 p-3 rounded-lg bg-white border-2 border-gray-900 text-gray-950"}>{step.descr}</li>
                 ))}
             </ul>
