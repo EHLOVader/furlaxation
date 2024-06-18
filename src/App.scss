@@ -90,6 +90,10 @@ li.active{
     width: 100%;
     animation-duration: 2s;
   }
+  &[data-time="3"]:after {
+      width: 100%;
+      animation-duration: 3s;
+  }
   &[data-time="5"]:after {
       width: 100%;
       animation-duration: 5s;
@@ -97,6 +101,23 @@ li.active{
   &[data-time="10"]:after {
       width: 100%;
       animation-duration: 10s;
+  }
+
+  &[data-time="15"]:after {
+      width: 100%;
+      animation-duration: 15s;
+  }
+  &[data-time="20"]:after {
+      width: 100%;
+      animation-duration: 20s;
+  }
+  &[data-time="25"]:after {
+      width: 100%;
+      animation-duration: 25s;
+  }
+  &[data-time="30"]:after {
+      width: 100%;
+      animation-duration: 30s;
   }
 
   &:before {
