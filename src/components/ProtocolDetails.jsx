@@ -40,8 +40,10 @@ const ProtocolDetails = ({ protocols }) => {
             <h3>Steps</h3>
             <ul className="flex flex-col" >
                 {protocol.steps.map((step, index) => (
-                    <li tabIndex="-1" key={index} data-time={step.time}
-                        className={(index==currentStep ? 'active ' : '') + "m-2 p-3 rounded-lg bg-white border-2 border-gray-900 text-gray-950"}>{step.descr}</li>
+                    <li tabIndex="-1" key={index} data-time={step.time} onClick={() => setStep(index)}
+                        className={(index==currentStep ? 'active ' : '') + " m-2 p-3 rounded-lg bg-white border-2 border-gray-900 text-gray-950"}>
+                       {step.descr}
+                    </li>
                 ))}
             </ul>
             <div className="controls flex flex-row justify-between sticky bottom-0 bg-[#242424]">
