@@ -1525,7 +1525,7 @@ export const protocols =  [
         },
         {
           "descr": "Sit for 30 seconds",
-          "time": 10
+          "time": 30
         },
         {
           "descr": "Sit while you leave the dog ’ s view, say “hello,” wait 5 seconds, and return"
@@ -1539,29 +1539,31 @@ export const protocols =  [
           "note": "→  (Note: Again, this is a change. Alter your behavior, if needed, depending on your pet ’ s reactivity. Pets with problems surrounding departures may react more at entrances. Behave as recommended above, please.)"
         },
         {
-          "descr": "Sit while you leave the dog ’ s view, say “hello,” wait 5 seconds, and return"
+          "descr": "Sit while you leave the dog ’ s view, say “hello,” wait 5 seconds, and return",
+          "time": 5
         },
         {
-          "descr": "Sit while you leave the dog ’ s view, knock or ring the bell, say “hello,” wait 5 seconds, and return"
+          "descr": "Sit while you leave the dog ’ s view, knock or ring the bell, say “hello,” wait 5 seconds, and return",
+          "time": 5
         },
         {
           "descr": "Sit for 20 seconds while you hum",
-          "time": 30
+          "time": 20
         },
         {
           "descr": "Sit for 15 seconds while you clap",
-          "time": 30
+          "time": 15
         },
         {
           "descr": "Sit for 5 seconds",
-          "time": 20
+          "time": 5
         },
         {
           "descr": "Sit while you jog around the dog"
         },
         {
           "descr": "Sit for 10 seconds while you clap and hum",
-          "time": 15
+          "time": 10
         },
         {
           "descr": "Sit for 5 seconds while you jog in place",
@@ -1581,11 +1583,11 @@ export const protocols =  [
         },
         {
           "descr": "Sit for 10 seconds",
-          "time": 5
+          "time": 10
         },
         {
           "descr": "Sit for 5 seconds while you hum and clap",
-          "time": 10
+          "time": 5
         },
         {
           "descr": "Sit while you run around dog"
@@ -1607,18 +1609,17 @@ export const protocols =  [
         },
         {
           "descr": "Sit for 10 seconds",
-          "time": 5
+          "time": 10
         },
         {
           "descr": "Sit for 5 seconds while you hum and clap",
-          "time": 10
+          "time": 5
         },
         {
           "descr": "Sit while you run around dog"
         },
         {
-          "descr": "Sit while you walk back and forth to door",
-          "time": 10
+          "descr": "Sit while you walk back and forth to door"
         },
         {
           "descr": "Sit while you leave room and quickly knock or ring bell and return"
@@ -1633,49 +1634,54 @@ export const protocols =  [
         },
         {
           "descr": "Sit while you leave the dog ’ s view for 10 seconds, knock softly on the wall and return",
-          "time": 5
+          "time": 10
         },
         {
           "descr": "Sit for 30 seconds",
-          "time": 10
+          "time": 30
         },
         {
           "descr": "Sit while you leave the dog ’ s view, ring the doorbell, and immediately return"
         },
         {
-          "descr": "Sit while you leave the dog ’ s view, ring the doorbell, wait 2 seconds, and return"
+          "descr": "Sit while you leave the dog ’ s view, ring the doorbell, wait 2 seconds, and return",
+          "time": 2
         },
         {
           "descr": "Sit for 30 seconds",
+          "time": 30
+        },
+        {
+          "descr": "Sit while you leave the dog ’ s view, say “hello,” wait 5 seconds, and return",
+          "time": 5
+        },
+        {
+          "descr": "Sit while you leave the dog ’ s view, knock or ring the bell, say “hello,” wait 10 seconds, and return",
           "time": 10
         },
         {
-          "descr": "Sit while you leave the dog ’ s view, say “hello,” wait 5 seconds, and return"
-        },
-        {
-          "descr": "Sit while you leave the dog ’ s view, knock or ring the bell, say “hello,” wait 10 seconds, and return"
-        },
-        {
           "descr": "Sit for 30 seconds",
           "time": 30
         },
         {
-          "descr": "Sit while you leave the dog ’ s view, say “hello,” wait 10 seconds, and return"
+          "descr": "Sit while you leave the dog ’ s view, say “hello,” wait 10 seconds, and return",
+          "time": 10
         },
         {
-          "descr": "Sit while you leave the dog ’ s view, knock or ring the bell, say “hello,” wait 10 seconds, and return"
+          "descr": "Sit while you leave the dog ’ s view, knock or ring the bell, say “hello,” wait 10 seconds, and return",
+          "time": 10
         },
         {
           "descr": "Sit for 20 seconds while you hum",
-          "time": 30
+          "time": 20
         },
         {
           "descr": "Sit for 20 seconds",
-          "time": 30
+          "time": 20
         },
         {
           "descr": "Sit for 5 seconds",
-          "time": 20
+          "time": 5
         }
       ]
     },
@@ -1684,7 +1690,7 @@ export const protocols =  [
       "steps" : [
         {
           "descr": "Sit for 10 seconds",
-          "time": 20
+          "time": 10
         },
         {
           "descr": "Sit for 5 seconds",
@@ -1692,19 +1698,20 @@ export const protocols =  [
         },
         {
           "descr": "Sit for 15 seconds while you clap and hum",
-          "time": 10
-        },
-        {
-          "descr": "Sit while you leave the dog ’ s view, knock or ring the bell, say “hello,” talk for 10 seconds, and return",
-          "time": 5
-        },
-        {
-          "descr": "Sit for 20 seconds while you hum",
           "time": 15
         },
         {
+          "descr": "Sit while you leave the dog ’ s view, knock or ring the bell, say “hello,” talk for 10 seconds, and return",
+          "time": 10
+        },
+        {
+          "descr": "Sit for 20 seconds while you hum",
+          "time": 20
+        },
+        {
           "descr": "Sit while you leave the dog ’ s view, say “hello,” invite the invisible person in, wait 5 seconds, and return",
-          "note": "→  (Note: Again, this is a change. Alter your behavior, if needed, depending on your pet ’ s reactivity. Pets with problems surrounding departures may react more at entrances. Behave as recommended above, please.)"
+          "note": "→  (Note: Again, this is a change. Alter your behavior, if needed, depending on your pet ’ s reactivity. Pets with problems surrounding departures may react more at entrances. Behave as recommended above, please.)",
+          "time": 5
         },
         {
           "descr": "Sit for 10 seconds",
@@ -1715,11 +1722,12 @@ export const protocols =  [
           "time": 20
         },
         {
-          "descr": "Sit while you leave the dog ’ s view, say “hello,” invite the invisible person in, wait 10 seconds, and return"
+          "descr": "Sit while you leave the dog ’ s view, say “hello,” invite the invisible person in, wait 10 seconds, and return",
+          "time": 10
         },
         {
           "descr": "Sit while you leave the dog ’ s view, say “hello,” talk as if to someone for 5 seconds, and return",
-          "time": 10
+          "time": 5
         },
         {
           "descr": "Sit for 5 seconds while you hum and clap",
@@ -1730,7 +1738,6 @@ export const protocols =  [
         },
         {
           "descr": "Sit while you walk back and forth to door",
-          "time": 5
         },
         {
           "descr": "Sit while you leave room and quickly knock or ring bell and return"
@@ -1747,41 +1754,35 @@ export const protocols =  [
           "time": 5
         },
         {
-          "descr": "Sit while you leave the room and talk to people who aren ’ t there for 3 seconds",
+          "descr": "Sit while you leave the room and talk to people who aren’t there for 3 seconds",
           "time": 3
         },
         {
-          "descr": "Sit while you leave the room and talk to people who aren ’ t there for 5 seconds",
+          "descr": "Sit while you leave the room and talk to people who aren’t there for 5 seconds",
           "time": 5
         },
         {
-          "descr": "Sit while you leave the room and talk to people who aren ’ t there for 10 seconds",
-          "time": 3
+          "descr": "Sit while you leave the room and talk to people who aren’t there for 10 seconds",
+          "time": 10
         },
         {
           "descr": "Sit while you run around the dog"
         },
         {
-          "descr": "Sit for 10 seconds while you",
-          "time": 5
+          "descr": "Sit for 10 seconds while you sit in a chair",
+            "time": 10
         },
         {
-          "descr": "sit in a chair"
-        },
-        {
-          "descr": "Sit for 30 seconds while you",
-          "time": 10
-        },
-        {
-          "descr": "sit in a chair"
+          "descr": "Sit for 30 seconds while you sit in a chair",
+          "time": 30
         },
         {
           "descr": "Sit for 15 seconds while you jog and clap",
-          "time": 10
+          "time": 15
         },
         {
           "descr": "Sit for 5 seconds",
-          "time": 30
+          "time": 5
         }
       ]
     }
