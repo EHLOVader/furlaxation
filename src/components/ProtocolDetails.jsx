@@ -2,8 +2,11 @@ import React from 'react';
 import { useKeepAwake } from 'react-keep-awake';
 import { useParams } from 'react-router-dom';
 
+import {activate} from '../components/nosleep';
+
 const ProtocolDetails = ({ protocols }) => {
     useKeepAwake();
+    activate();
     const { protocolId } = useParams();
     const protocol = protocols[protocolId];
 
