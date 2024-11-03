@@ -24,6 +24,8 @@ const ProtocolDetails = ({ protocols }) => {
 
     const handleNo = () => {
         if(currentStep === 0) {
+            setStep(-1)
+            window.setTimeout(() => setStep(0), 10)
             return;
         }
         setStep(currentStep - 1)
