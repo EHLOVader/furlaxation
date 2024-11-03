@@ -1,6 +1,6 @@
 import React from 'react';
 import { useKeepAwake } from 'react-keep-awake';
-import { useParams } from 'react-router-dom';
+import {Link, useParams} from 'react-router-dom';
 
 import {activate} from '../components/nosleep';
 
@@ -16,9 +16,6 @@ const ProtocolDetails = ({ protocols }) => {
     const [performance, setPerformance] = React.useState({ 'passes': 0, 'fails': 0 });
 
     const handleYes = () => {
-        if(currentStep === protocol.steps.length - 1) {
-            return;
-        }
         setStep(currentStep + 1)
         performance.passes++;
         setPerformance(performance);
