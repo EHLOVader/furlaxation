@@ -9,7 +9,7 @@ function App() {
     const [step, setStep] = useState(0);
 
     return (
-        <Router basename="/furlaxation">
+        <Router>
             <div className="App">
                 <Routes>
                     <Route path={"/protocol/:protocolId"} element={
