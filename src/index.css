@@ -37,6 +37,7 @@ p {
     font-size: 1.6em;
     margin: 1em auto;
     max-width: 60ch;
+    text-wrap: balance;
 }
 
 a:not([class]){
