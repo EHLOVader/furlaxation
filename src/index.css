@@ -24,6 +24,42 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2.4em;
+    line-height: 1.1;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.6em;
+    margin: 1em auto;
+    max-width: 60ch;
+}
+
+a:not([class]){
+    color: #646cff;
+    text-decoration: none;
+    transition: color 0.25s;
+    border-bottom: 1px solid #646cff;
+}
+
+a:not([class]):hover {
+    color: #a6a6ff;
+    border-bottom-color: #a6a6ff;
+    border-bottom-width: 3px;
+}
+
+a:not([class]):focus {
+    outline-offset: -3px;
+    padding: 6px;
+    margin: -6px;
+    outline: dotted;
+    outline-width: 4px;
+    background: #a6a6ff;
+    color: #222;
 }
 
 button {
