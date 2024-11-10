@@ -9,6 +9,7 @@ const ProtocolDetails = ({ protocols }) => {
     activate();
     const { protocolId } = useParams();
     const protocol = protocols[protocolId];
+    const protocolIdText = (parseInt(protocolId)+1).toString();
 
     // Keep state on current step
     const [currentStep, setStep] = React.useState(-1)
@@ -34,6 +35,9 @@ const ProtocolDetails = ({ protocols }) => {
     }
 
     React.useEffect(() => {
+
+        document.title = `Protocol ${protocol.name} | Furlaxation`;
+
         return () => {
             const active = document.querySelector('.active')
             if (active) {
@@ -57,13 +61,13 @@ const ProtocolDetails = ({ protocols }) => {
                       className="bg-yellow-500 hover:bg-blue-700 text-white font-bold m-2 p-4 w-full rounded"
                       onClick={() => window.location.reload()}
                     >
-                      Rerun Protocol {protocolId}
+                      Rerun Protocol {protocolIdText}
                     </a>
                     <Link
                       className="bg-blue-500 hover:bg-blue-700 text-white font-bold m-2 p-4 w-full rounded"
                       to = {`/protocol/${parseInt(protocolId) + 1}`}
                     >
-                      Continue to Protocol {parseInt(protocolId) + 1}
+                      Continue to Protocol {(parseInt(protocolIdText) + 1).toString()}
                     </Link>
                 </div>
             </div>
@@ -71,6 +75,7 @@ const ProtocolDetails = ({ protocols }) => {
     }else{
         return (
             <div>
+                <h2>Protocol {protocolIdText}</h2>
                 <h3>Steps</h3>
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold m-2 p-4 w-full rounded"
                         onClick={() => setStep(0)}
