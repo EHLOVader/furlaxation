@@ -167,3 +167,37 @@ li {
   margin: 0 -2rem;
   padding: 2rem;
 }
+
+.protocol-button {
+  background: url('assets/paw-simple-solid-white.svg') no-repeat 50% 50%;
+  height: 6em;
+  width: 6em;
+  padding: 2.5em 1em 1em;
+  justify-self: center;
+  color: #535bf2;
+
+  &:hover {
+    background: url('assets/paw-simple-solid-purple.svg') no-repeat 50% 50%;
+    color: #fff;
+  }
+
+  a {
+    color: #333;
+    font-size: 2em;
+    font-weight: bold;
+
+    &:hover {
+      color: #fff;
+    }
+
+    &::before {
+        content: " ";
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+  }
+}
