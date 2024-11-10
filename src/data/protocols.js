@@ -1,5 +1,6 @@
 export const protocols =  [
     {
+      "id": "1",
       "name": "Task Set 1",
       "steps" : [
         {
@@ -165,6 +166,7 @@ export const protocols =  [
       ]
     },
     {
+      "id": "2",
       "name": "Task Set 2",
       "steps" : [
         {
@@ -279,6 +281,7 @@ export const protocols =  [
       ]
     },
     {
+      "id": "3",
       "name": "Task Set 3",
       "steps" : [
         {
@@ -418,6 +421,7 @@ export const protocols =  [
       ]
     },
     {
+      "id": "4",
       "name": "Task Set 4",
       "steps" : [
         {
@@ -544,6 +548,7 @@ export const protocols =  [
       ]
     },
     {
+      "id": "5",
       "name": "Task Set 5",
       "steps" : [
         {
@@ -649,6 +654,7 @@ export const protocols =  [
       ]
     },
     {
+      "id": "6",
       "name": "Task Set 6",
       "steps" : [
         {
@@ -758,6 +764,7 @@ export const protocols =  [
       ]
     },
     {
+      "id": "7",
       "name": "Task Set 7",
       "steps" : [
         {
@@ -874,6 +881,7 @@ export const protocols =  [
       ]
     },
     {
+      "id": "8",
       "name": "Task Set 8",
       "steps" : [
         {
@@ -1007,6 +1015,7 @@ export const protocols =  [
       ]
     },
     {
+      "id": "9",
       "name": "Task Set 9",
       "steps" : [
         {
@@ -1117,6 +1126,7 @@ export const protocols =  [
       ]
     },
     {
+      "id": "10",
       "name": "Task Set 10",
       "steps" : [
         {
@@ -1232,6 +1242,7 @@ export const protocols =  [
       ]
     },
     {
+      "id": "11",
       "name": "Task Set 11",
       "steps" : [
         {
@@ -1338,6 +1349,7 @@ export const protocols =  [
       ]
     },
     {
+      "id": "12",
       "name": "Task Set 12",
       "steps" : [
         {
@@ -1457,6 +1469,7 @@ export const protocols =  [
       ]
     },
     {
+      "id": "13",
       "name": "Task Set 13",
       "steps" : [
         {
@@ -1575,6 +1588,7 @@ export const protocols =  [
       ]
     },
     {
+      "id": "14",
       "name": "Task Set 14",
       "steps" : [
         {
@@ -1686,6 +1700,7 @@ export const protocols =  [
       ]
     },
     {
+      "id": "15",
       "name": "Task Set 15",
       "steps" : [
         {
